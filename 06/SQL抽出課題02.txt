@@ -1,4 +1,4 @@
-SQL’Šo‰Û‘è02
+ySQL’Šo‰Û‘è02z
 
 1,UPDATE gs_bm_table SET book_name = 'RB' WHERE id = 7 
 
