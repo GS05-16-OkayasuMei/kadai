@@ -1,4 +1,4 @@
-ySQL’Šo‰Û‘è02z
+ï»¿ã€SQLæŠ½å‡ºèª²é¡Œ02ã€‘
 
 1,UPDATE gs_bm_table SET book_name = 'RB' WHERE id = 7 
 
@@ -6,6 +6,6 @@
 
 3,UPDATE gs_bm_table SET indate = sysdate() WHERE id >= 6 AND id <= 8
 
-4,UPDATE gs_bm_table SET book_name = 'PHP&JS' WHERE book_name = 'JS–{'
+4,UPDATE gs_bm_table SET book_name = 'PHP&JS' WHERE book_name = 'JSæœ¬'
 
-5,UPDATE gs_bm_table SET book_cmt = '–¢“ü—Í' WHERE book_cmt IS NULL  OR book_cmt = ''
+5,UPDATE gs_bm_table SET book_cmt = 'æœªå…¥åŠ›' WHERE book_cmt IS NULL  OR book_cmt = ''

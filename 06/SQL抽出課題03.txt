@@ -1,4 +1,4 @@
-�ySQL���o�ۑ�03�z
+﻿【SQL抽出課題03】
 
 1,SELECT * FROM gs_user WHERE id IN (1,3,5)
 
