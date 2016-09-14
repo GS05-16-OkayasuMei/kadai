@@ -95,15 +95,30 @@ body {
 	opacity: 0.9;
 }
 
-.icon {
+#btn_list {
 	height: 25px;
 	width: 25px;
+}
+
+.back_icon {
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 15px;
+}
+
+.back_icon:hover{
+	opacity: 0.5;
+}
+
+.icon {
+	height: 20px;
+	width: 20px;
 	padding-right: 5px;
 }
 
 .detail{
     display: none;
-	height: 380px;
+	height: 420px;
 	background-color: #eeeeee;
 	text-align: center;
 	color: #FF6347;
