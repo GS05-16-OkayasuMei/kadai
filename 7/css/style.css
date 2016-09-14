@@ -1,0 +1,155 @@
+@charset "UTF-8"
+	
+html {
+	font-size: 62.5%;
+}
+
+* , *::before, *::after{
+	box-sizing: border-box;
+}
+
+body,
+.site-title:before,
+.site-title-sub:before,
+.site-discription:before,
+.save-comp:before {
+	background: #151515 url("../img/book.jpeg") no-repeat fixed left bottom;
+	background-size: cover;
+	color: #FF6347;
+	text-align: center;
+	font-size: 1.4rem;
+	font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.header{
+	padding: 170px 30px 80px;
+}
+
+/*背景ぼかし*/
+.site-title-sub:before {
+  content: "";
+  z-index: -1;
+  -webkit-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+  position: absolute;
+  width: 15%;
+  height: 5%;
+  margin: 0;
+  padding: 0;
+}
+
+.site-title:before {
+  content: "";
+  z-index: -1;
+  -webkit-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+  position: absolute;
+  width: 30%;
+  height: 10%;
+  margin: 0;
+  padding: 0;
+}
+
+.site-discription:before {
+  content: "";
+  z-index: -1;
+  -webkit-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+  position: absolute;
+  width: 20%;
+  height: 5%;
+  margin: 0;
+  padding: 0;
+}
+
+.save-comp:before {
+  content: "";
+  z-index: -1;
+  -webkit-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+  position: absolute;
+  width: 45%;
+  height: 10%;
+  margin: 0;
+  padding: 0;
+}
+
+.site-title{
+	margin: 50px 0 40px;
+	font-size: 6.6rem;
+}
+
+.site-discription{
+	margin-bottom: 50px;
+	color: #FFA07A;
+	font-size: 1.6rem;
+}
+
+.button{
+	display: inline-block;
+	width: 200px;
+	padding: 20px;
+	border-radius: 4px;
+	background-color: #afa58d;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-size: 1.2rem;
+}
+
+.button:hover {
+	opacity: 0.9;
+}
+
+.button-showy{
+	background-color: #f1b400;
+}
+
+.heading{
+	position: relative;
+	display: inline-block;
+	margin: 30px 0 15px;
+	padding-bottom: 15px;
+	letter-spacing: 2px;
+	font-size: 2.5rem;
+}
+
+.heading::before,
+.heading::after {
+	content :"";
+	position : absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-bottom: 1px solid #999;
+}
+
+.heading::before {
+	bottom: 5px;
+}
+
+.form {
+	width :50%;
+	margin: 50px auto 0;
+}
+
+.form input[type=text],
+.form textarea {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 15px;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	border-radius: 0;
+	background-color: 1px solid rgba(255, 255, 255, 0.05);
+	color: #000;
+}
+
+.submit_btn {
+	font-size: 1.5rem;
+	background-color: #FFA07A;
+}

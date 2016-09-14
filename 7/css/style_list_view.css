@@ -1,0 +1,120 @@
+body {
+	background-color: #3e3e3e;
+	color: #fff;
+}
+
+.footer {
+	width:100%;
+	padding: 20px 0  30px;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.heading{
+	position: relative;
+	display: inline-block;
+	margin: 30px 0 15px;
+	padding-bottom: 15px;
+	letter-spacing: 2px;
+	font-size: 2.5rem;
+}
+
+.heading::before,
+.heading::after {
+	content :"";
+	position : absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-bottom: 1px solid #999;
+}
+
+.heading::before {
+	bottom: 5px;
+}
+
+.scroll-list {
+	max-height: 340px;
+	overflow-y: auto;
+	margin-bottom: 30px;
+	list-style-type: none;
+}
+
+.scroll-list .date {
+	display: inline-block;
+	width: 19%;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+.scroll-list .title {
+	display: inline-block;
+	width: 60%;
+	padding-left: 15px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 1.4rem;
+	vertical-align: middle;
+}
+
+.scroll-list .scroll-item a {
+	display: block;
+	padding: 10px 15px;
+	color: aquamarine;
+	transition: background-color 0.1s;
+}
+
+.scroll-list .scroll-item a:hover {
+	background-color: #F0F8FF;
+}
+
+.button{
+	display: inline-block;
+	width: 100px;
+	padding: 5px;
+	border-radius: 4px;
+	background-color: #afa58d;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-size: 1.2rem;
+}
+
+.button-showy{
+	background-color: #f1b400;
+	width: 200px;
+	padding: 20px;
+}
+
+.button:hover{
+	opacity: 0.9;
+}
+
+.icon {
+	height: 25px;
+	width: 25px;
+	padding-right: 5px;
+}
+
+.detail{
+    display: none;
+	height: 380px;
+	background-color: #eeeeee;
+	text-align: center;
+	color: #FF6347;
+}
+
+.detail input[type=text],
+.detail textarea {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 15px;
+	background-color: 1px solid rgba(255, 255, 255, 0.05);
+	color: #000;
+}
